@@ -28,14 +28,18 @@ var country = prompt("Is China my favorite country to visit? Yes or No");
 }	else {
 		alert("Wrong, my favorite country is Albania.");
 		console.log("Incorrect, my favorite country to visit is Albania:" + country);
-}
-var userNumber = prompt("What's my favorite number between 1-6")
-	for(var userNumber = 0; i < 7; i++) {
-    alert(userNumber);
-    if (userNumber !== 7) 
- {
-    
-     }
+} 
+var userNumber = parseInt(prompt("What's my favorite number between 1-6"));
+	while(userNumber !== 2) {
+		console.log("Guess " + typeof(userNumber));
+		console.log("Answer " + typeof(2));
+   		userNumber = parseInt(prompt("Guess again, not the right number."));
  }
+ 	if (userNumber === 2) {
+ 		alert("Good guess, you finally got it!");
+ 		console.log("Good guess.");
+ 		score += 1;
+ 	}
 
-		alert("You answered " + score + " out 3 correct");
+
+		alert("You answered " + score + " out 4 correct");
