@@ -1,0 +1,25 @@
+body	{
+	
+	height: 100px;
+	color: white;
+	background-color: black;
+	text-align: center;
+}
+h1 {
+	color: green;
+	margin: right 400px;
+	margin:bottom 200px;}
+
+h2 {
+	color: blue;
+}
+li, p{
+	color:red;
+
+}
+header{
+	font-size: 40px;
+	background-color: green;
+	font-style: Arial;
+}
+
