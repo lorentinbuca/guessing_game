@@ -31,11 +31,12 @@ var country = prompt("Is China my favorite country to visit? Yes or No");
 } 
 var userNumber = parseInt(prompt("What's my favorite number between 1-6"));
 	while(userNumber !== 2) {
-		console.log("Guess " + typeof(userNumber));
+		alert("Guess " + typeof(userNumber));
 		console.log("Answer " + typeof(2));
    		userNumber = parseInt(prompt("Guess again, not the right number."));
  }
  	if (userNumber === 2) {
+ 		
  		alert("Good guess, you finally got it!");
  		console.log("Good guess.");
  		score += 1;
