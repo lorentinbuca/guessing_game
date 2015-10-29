@@ -3,8 +3,13 @@ Programming School: Code Fellows
 Lorentin Buca
 # guessing_game
 
+Driver: Adam Palmer
+Navigator: Lorentin Buca
+The code has been modified together per todays assignment.
+
+
 -----------------------Guessing Game built with JavaScript,HTML,CSS------------------------------
-The game is about me and few things they have to guess about my favorite things. This is all done in JavaScript with some HTML and CSS included. 
+The game is about me and few things they have to guess about my favorite things. This is all done in JavaScript with some HTML and CSS included.
 
 What is JavaScript?
 
@@ -27,7 +32,7 @@ var userNumber = parseInt(prompt("What's my favorite number between 1-6"));
 
 alert("You answered " + score + " out 4 correct");
 
-JOKE: 
+JOKE:
       How do you tell HTML from HTML5?
         -Try it out in Internet Explorer
         -Did it work?
