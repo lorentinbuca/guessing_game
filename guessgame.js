@@ -2,6 +2,7 @@ var score = 0;
 var name = prompt("What's your name?");
 alert("Ok, " + name + " let's play this game real quick");
 
+
 function firstQuestion() {
 	var ans1 = document.getElementById('answer1');
 var car = prompt('Is BMW my favorite car? Yes or No');
@@ -18,8 +19,8 @@ var car = prompt('Is BMW my favorite car? Yes or No');
 		console.log("Incorrect, my favorite car is:" + car)
 	}
 }
-
 setTimeout(firstQuestion, 1000);
+
 
 function secondQuestion() {
 	var ans2 = document.getElementById('answer2');
@@ -37,8 +38,8 @@ var sport = prompt("Is Baseball my favorite sport? Yes or NO");
 		console.log("Incorrect, my favorite sport is:" + sport);
 	}
 }
-
 setTimeout(secondQuestion, 1050);
+
 
 function thirdQuestion() {
 	var ans3 = document.getElementById('answer3');
@@ -56,8 +57,8 @@ var country = prompt("Is China my favorite country to visit? Yes or No");
 		console.log("Incorrect, my favorite country to visit is Albania:" + country);
 	}
 }
-
 setTimeout(thirdQuestion, 1100);
+
 
 function fourthQuestion() {
 	var ans4 = document.getElementById('answer4');
@@ -75,8 +76,8 @@ var city = prompt("Is NYC my favorite city? Yes or No");
 		console.log("Incorrect, my favorite city to visit is city:" + city);
  }
 }
-
 setTimeout(fourthQuestion, 1150);
+
 
 function fifthQuestion() {
 	var ans5 = document.getElementById('answer5');
@@ -94,8 +95,8 @@ function fifthQuestion() {
  		score += 1;
  	}
 }
-
 setTimeout(fifthQuestion, 1200);
+
 
 function sixthQuestion() {
 	var ans6 = document.getElementById('answer6');
@@ -114,7 +115,4 @@ var userNumber = parseInt(prompt("What's my favorite number between 1-6"));
  }
  alert("You answered " + score + " out 6 correct");
 }
-
 setTimeout(sixthQuestion, 1250);
-
-
